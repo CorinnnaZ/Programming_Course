@@ -1,7 +1,7 @@
 ## BSC Year 12 Python Programming Course
 For Band 1 Qualification Section of Sixth Form Award at BSC.
 
-### Content
+## Content
 1. Week 1 = Data types, input, output, mathematical operations, string concatenation, functions/subroutines with returns
 2. Week 2 = Conditional statements, relational and logical operators, for and while loops, combining control structures.
 3. Week 3 = Using modules (math, time, random)
