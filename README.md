@@ -21,4 +21,29 @@ def gradeValidate():
             print('Your test score must be within the range of 0-100.')
     except ValueError:
         print("Invalid input. Please enter a valid number.")
+
+def grade_input():
+    subject = input('input the subject of the test: ')
+    score = gradeValidate()
+    return subject,score
+
+def test_scores():
+    scores.append((grade_input()))
+    cont = input('continue adding scores? enter "yes" to continue; anything else to exit: ')
+    if cont == 'yes':
+        test_scores()
+    else:
+        gradePeek()
+
+def gradePeek():
+    num=1
+    grade_check = input('check your score? enter "yes" to check; anything else to exit: ')
+    if grade_check == 'yes':
+        for subject,score in scores:
+            print(f'{num}. {subject} test: score: {score}%')
+            num+=1
+    else:
+        raise SystemExit
+
+test_scores()
 ```
