@@ -11,19 +11,15 @@ Contains:
 7. Week 7 = Using Object-Oriented Programming (OOP) and databases (done over several weeks)
 
 '''
-"def gradeValidate():\n",
-    "    while True:\n",
-    "        try:\n",
-    "            score = float(input(\"Please enter your score from that test: \"))\n",
-    "            if score >= 0 and score <= 100:\n",
-    "                return score\n",
-    "            else:\n",
-    "                print('Your test score must be within the range of 0-100.')\n",
-    "        except ValueError:\n",
-    "            print(\"Invalid input. Please enter a valid number.\")\n",
-    "\n",
-    "def grade_input():\n",
-    "    subject = input('input the subject of the test: ')\n",
-    "    score = gradeValidate()\n",
-    "    return subject,score\n",
+def gradeValidate():
+    while True:
+        try:
+        score = float(input(\"Please enter your score from that test: \"))
+        if score >= 0 and score <= 100:
+            return score
+        else:
+            print('Your test score must be within the range of 0-100.')
+    except ValueError:
+        print(\"Invalid input. Please enter a valid number.\")
+
 '''
