@@ -10,8 +10,8 @@ For Band 1 Qualification Section of Sixth Form Award at BSC.
 6. Week 6 = Reading/Writing from files - txt and csv ; handling exceptions
 7. Week 7 = Using Object-Oriented Programming (OOP) and databases (done over several weeks)
 
-#### Example Code
-###### Student Score Entry (Week 5)
+### Example Code
+##### Student Score Entry (Week 5)
 ```py
 def gradeValidate():
     while True:
@@ -49,7 +49,7 @@ def gradePeek():
 
 test_scores()
 ```
-###### Task Manager with File Storage (Week 6)
+##### Task Manager with File Storage (Week 6)
 ```py
 def validateChoice():
     while True:
