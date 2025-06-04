@@ -10,7 +10,7 @@ Contains:
 6. Week 6 = Reading/Writing from files - txt and csv ; handling exceptions
 7. Week 7 = Using Object-Oriented Programming (OOP) and databases (done over several weeks)
 
-'''
+```
 def gradeValidate():
     while True:
         try:
@@ -21,5 +21,4 @@ def gradeValidate():
             print('Your test score must be within the range of 0-100.')
     except ValueError:
         print(\"Invalid input. Please enter a valid number.\")
-
-'''
+```
