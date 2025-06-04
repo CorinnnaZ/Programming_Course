@@ -1,4 +1,4 @@
-## BSC Yr12 Python Programming Course
+## BSC Year 12 Python Programming Course
 For Band 1 Qualification Section of Sixth Form Award at BSC.
 
 ### Content
