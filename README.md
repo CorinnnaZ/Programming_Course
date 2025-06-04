@@ -14,11 +14,11 @@ Contains:
 def gradeValidate():
     while True:
         try:
-        score = float(input(\"Please enter your score from that test: \"))
+        score = float(input("Please enter your score from that test: "))
         if score >= 0 and score <= 100:
             return score
         else:
             print('Your test score must be within the range of 0-100.')
     except ValueError:
-        print(\"Invalid input. Please enter a valid number.\")
+        print("Invalid input. Please enter a valid number.")
 ```
