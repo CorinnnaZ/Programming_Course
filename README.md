@@ -1,5 +1,5 @@
 ## BSC Year 12 Python Programming Course
-For Band 1 Qualification Section of Sixth Form Award at BSC.
+For Band 1 Qualification Section of the Stortfordian Diploma (formerly known as the Sixth Form Award) at BSC.
 
 ## Content
 1. Week 1 = Data types, input, output, mathematical operations, string concatenation, functions/subroutines with returns
