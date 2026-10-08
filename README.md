@@ -111,7 +111,7 @@ def taskComplete():
     return task_manager()
 
 def taskMenu():
-    title = "Task Manafer"
+    title = "Task Manager"
     deco ="-"
     menuItems = '''1. Add Tasks
 2. Check Tasks
